@@ -429,9 +429,17 @@ textarea {
 .box {
   height: 200px;
   width: 200px;
-  margin-bottom: 300px;
+  margin-bottom: 20px;
 }
 
 .red-box {
   background-color: #f13232;
+}
+
+.blue-box {
+  background-color: #48ddfe;
+}
+
+.orange-box {
+  background-color: #feb21b;
 }

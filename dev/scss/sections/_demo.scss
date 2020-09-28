@@ -5,9 +5,17 @@
 .box{
     height: 200px;
     width: 200px;
-    margin-bottom: 300px;
+    margin-bottom: 20px;
 }
 
 .red-box{
     background-color: $red;
+}
+
+.blue-box{
+    background-color: $blue;
+}
+
+.orange-box{
+    background-color: $orange;
 }
