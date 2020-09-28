@@ -5,7 +5,7 @@ import {gsap} from "gsap";
 export function redBoxAnimation(){
 
     var tl = gsap.timeline();
-    tl.to(".red-box",{duration:3,x:400});
+    tl.from(".red-box",{duration:3,x:-400});
 
     return tl;
 

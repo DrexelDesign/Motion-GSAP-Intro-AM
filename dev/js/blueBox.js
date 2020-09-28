@@ -4,7 +4,7 @@ import {gsap} from "gsap";
 export function blueBoxAnimation(){
 
     var tl = gsap.timeline();
-    tl.to(".blue-box",{duration:0.5,x:400});
+    tl.from(".blue-box",{duration:0.5,x:-600});
 
     return tl;
 
