@@ -1,31 +1,37 @@
 /* =============
     Base
 ============= */
-figure {
-    margin: 0;
-    padding: 0;
+
+a{
+    text-decoration: none;
+    transition: 0.25s;
 }
 
-ul {
-    margin: 0;
+ul{
     padding: 0;
-
-    li {
-        list-style: none;
+    margin: 0;
+    li{
+            list-style: none;
     }
 }
 
-.container-grid {
-    display: grid;
-    grid-template-areas: ". grid-content .";
-    grid-template-columns: 15px auto 15px;
-    height: 100vh;
-
-    @include xl {
-        grid-template-columns: auto 1200px auto;
+.show-for-medium{
+    display: none;
+    @include md{
+        display: block;
     }
+}
 
-    >div {
-        grid-area: grid-content;
+.show-for-large{
+    display: none;
+    @include lg{
+        display: block;
+    }
+}
+
+.show-for-lg{
+    display: none;
+    @include lg{
+        display: block !important;
     }
 }
