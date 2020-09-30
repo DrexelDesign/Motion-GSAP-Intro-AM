@@ -1,20 +1,25 @@
 //import * as Demo from './demo.js';
 
-import {gsap} from "gsap";
+//import {gsap} from "gsap";
 
-import {redBoxAnimation} from "./redBox.js"
-import {blueBoxAnimation} from "./blueBox.js"
-import {orangeBoxAnimation} from "./orangeBox.js"
+import {section1Animation} from "./sections/section-1.js";
+import {section2Animation} from "./sections/section-2.js";
+
+
+
+// call section 1 animation function
+section1Animation();
+section2Animation();
 
 //console.log(Demo);
 
-const mainTL = gsap.timeline({paused:true});
+// const mainTL = gsap.timeline({paused:true});
 
-    mainTL.add(redBoxAnimation())
-        //.addLabel("orange")
-        .add(orangeBoxAnimation())
-        //.addPause()
-        .add(blueBoxAnimation(),"-=1")
-        //.seek("orange")
-        .play();
+//     mainTL.add(redBoxAnimation())
+//         //.addLabel("orange")
+//         .add(orangeBoxAnimation())
+//         //.addPause()
+//         .add(blueBoxAnimation(),"-=1")
+//         //.seek("orange")
+//         .play();
 
