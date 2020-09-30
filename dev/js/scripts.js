@@ -13,15 +13,3 @@ section1Animation();
 section2Animation();
 section3Animation();
 
-//console.log(Demo);
-
-// const mainTL = gsap.timeline({paused:true});
-
-//     mainTL.add(redBoxAnimation())
-//         //.addLabel("orange")
-//         .add(orangeBoxAnimation())
-//         //.addPause()
-//         .add(blueBoxAnimation(),"-=1")
-//         //.seek("orange")
-//         .play();
-
