@@ -412,6 +412,11 @@ p {
 /* =============
     Buttons
 ============= */
+button {
+  transition: 0.25s;
+  outline: none;
+}
+
 /* =============
     Forms
 ============= */
@@ -452,21 +457,21 @@ textarea {
     margin-bottom: 0px;
   }
 }
-#nav-container ul li a:link,
-#nav-container ul li a:visited {
+#nav-container ul li button {
   color: #fff;
   font-family: "Roboto Slab", serif;
   padding: 0 20px;
   text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 @media (min-width: 992px) {
-  #nav-container ul li a:link,
-#nav-container ul li a:visited {
+  #nav-container ul li button {
     color: #000;
   }
 }
-#nav-container ul li a:hover,
-#nav-container ul li a:active {
+#nav-container ul li button:hover {
   color: #F8C832;
 }
 #nav-container ul li:first-child {

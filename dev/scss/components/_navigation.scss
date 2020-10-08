@@ -20,21 +20,22 @@
                 margin-bottom: 0px;
             }
 
-            a:link,
-            a:visited {
+            button {
                 color: $white;
                 font-family: 'Roboto Slab', serif;
                 padding: 0 20px;
                 text-decoration: none;
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
 
                 @include lg {
                     color: $black;
                 }
-            }
 
-            a:hover,
-            a:active {
-                color: $yellow;
+                &:hover{
+                    color: $yellow;
+                }
             }
         }
 

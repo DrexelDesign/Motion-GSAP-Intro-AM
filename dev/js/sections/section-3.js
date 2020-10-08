@@ -19,7 +19,6 @@ section3TL.from("#section-3 aside",{duration:0.5,alpha:0},"start-section3")
 
 export function section3Animation(){
     ScrollTrigger.create({
-
         markers: true,
         animation: section3TL,
         toggleActions: "restart none reverse none",
