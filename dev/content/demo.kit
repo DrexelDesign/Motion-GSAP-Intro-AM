@@ -3,14 +3,14 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 453">
 
             <defs>
-                <clipPath id="ice-cream-cp" >
-                    <circle fill="#38FF00" cx="233" cy="227" r="84" />
-                </clipPath>
+                <mask id="ice-cream-mask" >
+                    <circle id="mask" fill="#fff" cx="233" cy="227" r="84" />
+                </mask>
 
             </defs>
 
             <g id="svg-demo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="clip-demo" clip-path="url(#ice-cream-cp)">
+                <g id="clip-demo" mask="url(#ice-cream-mask)">
                     <g id="ice-cream" transform="translate(25 72)">
                         <path id="red-box" fill="#FFA69E" d="M0 0h416v62H0z" />
                         <path id="cream" fill="#FAF3DD" d="M0 61h416v62H0z" />
