@@ -1,7 +1,5 @@
 import {gsap} from "gsap";
-
-import {iceCreamAnimation} from "./demo.js";
+import {iconAnimation} from "./demo.js"
 
 const mainTl = gsap.timeline();
-
-mainTl.add(iceCreamAnimation());
+mainTl.add(iconAnimation());
