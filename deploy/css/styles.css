@@ -426,12 +426,29 @@ textarea {
 /* =============
     Demo
 ============= */
-.box {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 300px;
+#demo {
+  display: grid;
+  grid-template-columns: auto 90% auto;
+  grid-template-areas: ". demo .";
 }
-
-.red-box {
-  background-color: #f13232;
+@media (min-width: 768px) {
+  #demo {
+    grid-template-columns: auto 80% auto;
+  }
+}
+@media (min-width: 992px) {
+  #demo {
+    grid-template-columns: auto 50% auto;
+  }
+}
+#demo > div {
+  grid-area: demo;
+  border: 3px solid aqua;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#demo > div svg {
+  border: 3px solid #000;
 }
