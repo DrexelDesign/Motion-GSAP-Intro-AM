@@ -20,11 +20,10 @@
         height: 100vh;
         display: flex;
         justify-content: center;
-        align-items: center;        
-
+        align-items: center; 
+        
         svg{
-            border: 3px solid #000;
-            // width: 100%;
+            width: 100%;
         }
     }
 }

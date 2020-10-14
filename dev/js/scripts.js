@@ -1,5 +1,7 @@
 import {gsap} from "gsap";
-import {redBoxAnimation} from "./demo.js"
 
-const mainTL = gsap.timeline();
-mainTL.add(redBoxAnimation());
+import {iceCreamAnimation} from "./demo.js";
+
+const mainTl = gsap.timeline();
+
+mainTl.add(iceCreamAnimation());

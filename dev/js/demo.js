@@ -1,14 +1,11 @@
 import {gsap} from "gsap";
 
-gsap.set("#red-box",{transformOrigin: "center"});
+const iceCreamTL = gsap.timeline();
+iceCreamTL.from("#ice-cream-cp",{duration:3, y:-200,ease: "bounce.out"}, "iceCreamGo")
+        .from("#ice-cream",{duration:3, y:400, ease:"none"}, "iceCreamGo")
+        .to("#ice-cream",{duration:3, y:-400, ease:"none"},"iceCreamGo");
 
-// only here to make codeKit be quiet!
-const redBoxTL = gsap.timeline();
-redBoxTL.from("#red-box",{duration:1,rotation:180, x:-600, ease: "none"})
-        .to("#red-box",{duration:1,rotation: -180, x:600, ease: "none"});
-
-export function redBoxAnimation(){
-    return redBoxTL;
+export function iceCreamAnimation(){
+    return iceCreamTL;
 }
-
 
