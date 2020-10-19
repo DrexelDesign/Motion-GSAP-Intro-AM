@@ -13,9 +13,11 @@ $("#toggle-button").on("click", function(){
 
         mainTl.play();
         toggle = true;
+        // gsap.set("#toggle-button",{alpha:0});
 
     }else{
         mainTl.reverse();
         toggle = false;
+        // gsap.set("#toggle-button",{alpha:1});
     }
 })
