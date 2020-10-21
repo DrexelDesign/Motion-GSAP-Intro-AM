@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/assets/spooky.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/spooky.sketch",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -38,12 +46,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/demo.kit": {
+	"/dev/content/spooky-svg.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/demo.html",
+		"oAP": "/dev/content/spooky-svg.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -222,7 +230,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_demo.scss": {
+	"/dev/scss/sections/_spooky.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -230,7 +238,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_demo.css",
+		"oAP": "/dev/scss/sections/_spooky.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

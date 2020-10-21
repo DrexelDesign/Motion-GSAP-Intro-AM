@@ -1,0 +1,17 @@
+/* =============
+    Demo
+============= */
+
+#spooky{
+
+    display: grid;
+    grid-template-columns: auto 70% auto;
+    grid-template-areas: ". spooky .";
+    >div{
+        grid-area: spooky;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

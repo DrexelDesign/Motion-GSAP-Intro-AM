@@ -426,12 +426,15 @@ textarea {
 /* =============
     Demo
 ============= */
-.box {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 300px;
+#spooky {
+  display: grid;
+  grid-template-columns: auto 70% auto;
+  grid-template-areas: ". spooky .";
 }
-
-.red-box {
-  background-color: #f13232;
+#spooky > div {
+  grid-area: spooky;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
