@@ -1,5 +1,3 @@
-const { default: gsap } = require("gsap/gsap-core");
-
 import {gsap} from "gsap";
 
 const foregroundTL = gsap.timeline();
