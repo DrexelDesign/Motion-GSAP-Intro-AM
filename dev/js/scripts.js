@@ -1,3 +1,14 @@
-import * as Demo from './demo.js';
+import { gsap } from "gsap";
+import { GSDevTools } from "gsap/GSDevTools";
 
-console.log(Demo);
+gsap.registerPlugin(GSDevTools);
+
+import {backgroundAnimation} from "./background/background.js";
+
+const mainTL = gsap.timeline();
+
+mainTL.add(backgroundAnimation());
+
+
+//instantiate GSDevTools with default settings
+GSDevTools.create();

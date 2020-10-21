@@ -438,3 +438,9 @@ textarea {
   align-items: center;
   justify-content: center;
 }
+#spooky > div svg {
+  width: 100%;
+}
+#spooky > div svg #foreground {
+  display: none;
+}

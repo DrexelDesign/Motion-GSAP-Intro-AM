@@ -54,6 +54,22 @@
 		"oAP": "/dev/content/spooky-svg.html",
 		"oF": 0
 		},
+	"/dev/content/svg/background.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/background.html",
+		"oF": 0
+		},
+	"/dev/content/svg/foreground.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/foreground.html",
+		"oF": 0
+		},
 	"/dev/global/head.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -78,13 +94,13 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/demo.js": {
+	"/dev/js/background/background.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/demo-min.js",
+		"oAP": "/dev/js/background/background-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -255,6 +271,14 @@
 		"oF": 2,
 		"oS": 0,
 		"sct": 0
+		},
+	"/gsap-bonus.tgz": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/gsap-bonus.tgz",
+		"oF": 0
 		},
 	"/node_modules": {
 		"ft": 65536,
