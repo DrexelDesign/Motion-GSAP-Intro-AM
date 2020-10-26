@@ -70,6 +70,22 @@
 		"oAP": "/dev/content/svg/foreground.html",
 		"oF": 0
 		},
+	"/dev/content/svg/foreground/back-middle.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/foreground/back-middle.html",
+		"oF": 0
+		},
+	"/dev/content/svg/foreground/cat.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/foreground/cat.html",
+		"oF": 0
+		},
 	"/dev/global/head.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -102,6 +118,28 @@
 		"oA": 1,
 		"oAP": "/dev/js/background/background-min.js",
 		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/background/sky.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/background/sky-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/foreground/cat.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/foreground/cat-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
