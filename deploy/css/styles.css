@@ -423,15 +423,21 @@ textarea {
 /* =============
     Footer
 ============= */
-/* =============
-    Demo
-============= */
-.box {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 300px;
+#rocket-container {
+  display: grid;
+  grid-template-columns: auto 60% auto;
+  grid-template-areas: ". rocket .";
 }
-
-.red-box {
-  background-color: #f13232;
+#rocket-container > div {
+  grid-area: rocket;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#rocket-container > div svg {
+  width: 100%;
+}
+#rocket-container > div svg #demo {
+  border: 1px solid red;
 }
