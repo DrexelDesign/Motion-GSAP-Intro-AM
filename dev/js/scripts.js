@@ -7,10 +7,15 @@ import {skyAnimation} from "./background/sky.js";
 import {catAnimation} from "./foreground/cat.js";
 //import {cloudAnimation} from "./background/sky.js";
 
+import {batFourAnimation} from "./foreground/bat.js";
+
 gsap.registerPlugin(GSDevTools);
 
 // playClouds
 //cloudAnimation();
+
+// make bat 4 fly around
+batFourAnimation();
 
 const mainTL = gsap.timeline();
 

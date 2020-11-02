@@ -140,6 +140,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/foreground/bat.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/foreground/bat-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/foreground/cat.js": {
 		"bF": 4,
 		"ft": 64,
