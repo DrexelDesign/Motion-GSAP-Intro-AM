@@ -18,14 +18,16 @@ export function batFourAnimation() {
     batFourFLying();
 
     batFourTL.to("#bat-4-container", {
-        duration: 5,
+        duration: 10,
         motionPath: {
             path: "#bat-4-path",
             align:"#bat-4-path"
+            // autoRotate: 50
         },
         repeat: 1,
         onComplete: batFourFlyAway,
         ease:"none"
+        // rotation: 15
     });
 }
 
