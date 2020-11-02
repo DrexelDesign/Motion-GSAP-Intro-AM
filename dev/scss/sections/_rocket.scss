@@ -1,0 +1,21 @@
+#rocket-container{
+    display: grid;
+    grid-template-columns: auto 60% auto;
+    grid-template-areas: ". rocket .";
+    >div{
+        grid-area: rocket;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        svg{
+            width: 100%;
+
+            #demo{
+                // stroke: red;
+                border: 1px solid red;
+            }
+        }
+    }
+}
