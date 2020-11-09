@@ -72,7 +72,6 @@ function batFourFlyAway(){
 
 
 // bat eyes
-
 const batEyesTL = gsap.timeline();
 
 export function batEyesAnimation(){
