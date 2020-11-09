@@ -2,12 +2,16 @@
     Demo
 ============= */
 
-.box{
-    height: 200px;
-    width: 200px;
-    margin-bottom: 300px;
-}
+#draw-svg-container{
+    display: grid;
+    grid-template-columns: auto 50% auto;
+    grid-template-areas: ". draw .";
+    height: 100vh;
 
-.red-box{
-    background-color: $red;
+    >div{
+        grid-area: draw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
