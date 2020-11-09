@@ -18,7 +18,7 @@ export function batOneAnimation() {
     batOneFlying();
 
     batOneTL.to("#bat-1-container", {
-        duration: 10,
+        duration: 7,
         ease:"none",
         motionPath: {
             path: "#bat-1-path",
@@ -49,13 +49,12 @@ export function batFourAnimation() {
     batFourFLying();
 
     batFourTL.to("#bat-4-container", {
-        duration: 10,
+        duration: 6,
         motionPath: {
             path: "#bat-4-path",
             align:"#bat-4-path"
             // autoRotate: 50
         },
-        repeat: 1,
         onComplete: batFourFlyAway,
         ease:"none"
         // rotation: 15
