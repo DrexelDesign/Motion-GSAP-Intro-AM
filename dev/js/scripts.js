@@ -4,15 +4,19 @@ import {GSDevTools} from "gsap/GSDevTools";
 import {backgroundAnimation} from "./background/background.js";
 import {foregroundAnimation} from "./foreground/foreground.js";
 import {skyAnimation} from "./background/sky.js";
-//import {catAnimation} from "./foreground/cat.js";
 //import {cloudAnimation} from "./background/sky.js";
 
-import {batFourAnimation} from "./foreground/bat.js";
+import {batOneAnimation} from "./foreground/bats.js";
+import {batFourAnimation} from "./foreground/bats.js";
 
 gsap.registerPlugin(GSDevTools);
 
 // playClouds
 //cloudAnimation();
+
+
+// make bat one fly
+batOneAnimation();
 
 // make bat 4 fly around
 batFourAnimation();
