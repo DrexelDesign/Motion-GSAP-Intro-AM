@@ -70,3 +70,25 @@ function batFourFLying(){
 function batFourFlyAway(){
     batFourTL.to("#bat-4", {duration: 0.25, y:"-=100", alpha:0, scale:0.25});
 }
+
+
+// bat eyes
+
+const batEyesTL = gsap.timeline();
+
+export function batEyesAnimation(){
+
+    batEyesWingsAnimation();
+
+    batEyesTL.fromTo("#bat-eyes",{x:"-=350", y:"+=300", scale:0.5},{y:"-=600",x:"+=1500", duration:5, scale:4});
+    return batEyesTL;
+}
+
+gsap.set("#bat-eyes-left-wing",{transformOrigin:"right bottom"});
+gsap.set("#bat-eyes-right-wing",{transformOrigin:"left bottom"});
+
+function batEyesWingsAnimation(){
+      const batEyeWingTL = gsap.timeline();
+      batEyeWingTL.fromTo("#bat-eyes-left-wing",{rotation:25},{rotation: -45, duration:0.25, yoyo:true, repeat:40},"wings")
+                  .fromTo("#bat-eyes-right-wing",{rotation:-20},{rotation: 45, duration:0.25, yoyo:true, repeat:40},"wings");
+}

@@ -8,6 +8,7 @@ import {skyAnimation} from "./background/sky.js";
 
 import {batOneAnimation} from "./foreground/bats.js";
 import {batFourAnimation} from "./foreground/bats.js";
+import {batEyesAnimation} from "./foreground/bats.js";
 
 gsap.registerPlugin(GSDevTools);
 
@@ -25,7 +26,8 @@ const mainTL = gsap.timeline();
 
 mainTL.add(backgroundAnimation(),"startSpooky")
       .add(skyAnimation(),"startSpooky")
-      .add(foregroundAnimation(),"startSpooky");
+      .add(foregroundAnimation(),"startSpooky")
+      .add(batEyesAnimation(),"-=3");
 
 //instantiate GSDevTools with default settings
 GSDevTools.create();
