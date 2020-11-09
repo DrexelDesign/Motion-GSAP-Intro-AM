@@ -10,6 +10,9 @@ import {batOneAnimation} from "./foreground/bats.js";
 import {batFourAnimation} from "./foreground/bats.js";
 import {batEyesAnimation} from "./foreground/bats.js";
 
+import {leftWebAnimation } from "./foreground/webs.js";
+import {rightWebAnimation } from "./foreground/webs.js";
+
 gsap.registerPlugin(GSDevTools);
 
 // playClouds
@@ -27,7 +30,9 @@ const mainTL = gsap.timeline();
 mainTL.add(backgroundAnimation(),"startSpooky")
       .add(skyAnimation(),"startSpooky")
       .add(foregroundAnimation(),"startSpooky")
-      .add(batEyesAnimation(),"-=3");
+      .add(batEyesAnimation(),"-=3")
+      .add(leftWebAnimation(),"webs")
+      .add(rightWebAnimation(),"webs");
 
 //instantiate GSDevTools with default settings
 GSDevTools.create();

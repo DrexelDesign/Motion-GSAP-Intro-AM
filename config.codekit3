@@ -102,6 +102,22 @@
 		"oAP": "/dev/content/svg/foreground/sky.html",
 		"oF": 0
 		},
+	"/dev/content/svg/foreground/web-left.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/foreground/web-left.html",
+		"oF": 0
+		},
+	"/dev/content/svg/foreground/web-right.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/foreground/web-right.html",
+		"oF": 0
+		},
 	"/dev/global/head.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -178,6 +194,17 @@
 		"oA": 1,
 		"oAP": "/dev/js/foreground/foreground-min.js",
 		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/foreground/webs.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/foreground/webs-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
