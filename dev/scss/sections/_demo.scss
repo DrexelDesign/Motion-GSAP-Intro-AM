@@ -13,5 +13,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        svg{
+            #star{
+                visibility: hidden;
+            }
+
+            #monster-2{
+                visibility: hidden;
+            }
+        }
     }
 }

@@ -9,12 +9,20 @@
 	],
 "creatorBuild": "33081",
 "files": {
-	"/assets/draw-svg.sketch": {
+	"/assets/monster.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/draw-svg.sketch",
+		"oAP": "/assets/monster.sketch",
+		"oF": 0
+		},
+	"/assets/morph-svg.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/morph-svg.sketch",
 		"oF": 0
 		},
 	"/deploy/css/styles.css": {

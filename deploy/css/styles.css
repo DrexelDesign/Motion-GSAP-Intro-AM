@@ -438,3 +438,9 @@ textarea {
   justify-content: center;
   align-items: center;
 }
+#draw-svg-container > div svg #star {
+  visibility: hidden;
+}
+#draw-svg-container > div svg #monster-2 {
+  visibility: hidden;
+}
