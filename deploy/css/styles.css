@@ -424,14 +424,22 @@ textarea {
     Footer
 ============= */
 /* =============
-    Demo
+    Speed
 ============= */
-.box {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 300px;
+#speed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
-
-.red-box {
-  background-color: #f13232;
+#speed > div {
+  display: flex;
+}
+#speed > div h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 6.25rem;
+}
+#speed > div h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 3.125rem;
 }

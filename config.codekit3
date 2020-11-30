@@ -38,12 +38,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/demo.kit": {
+	"/dev/content/speed.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/demo.html",
+		"oAP": "/dev/content/speed.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -70,17 +70,6 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/demo.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/demo-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/js/scripts.js": {
 		"bF": 4,
 		"ft": 64,
@@ -89,6 +78,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/speed.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/speed-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -222,7 +222,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_demo.scss": {
+	"/dev/scss/sections/_speed.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -230,7 +230,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_demo.css",
+		"oAP": "/dev/scss/sections/_speed.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -272,17 +272,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/gsap/gsap-core-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/gsap/index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/index-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

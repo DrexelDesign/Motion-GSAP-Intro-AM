@@ -1,3 +1,2 @@
-import * as Demo from './demo.js';
-
-console.log(Demo);
+import { speedCounter } from "./speed.js";
+console.log(speedCounter);
